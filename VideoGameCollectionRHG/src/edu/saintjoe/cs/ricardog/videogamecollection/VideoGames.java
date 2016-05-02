@@ -33,7 +33,7 @@ public class VideoGames {
 		return games;
 	}
 	public String toString() {
-		return (" Favorite Video Game: " + favVideoGame + " Number of owned games: " + games );
+		return (" Name: " + name + " Favorite Video Game: " + favVideoGame + " Number of owned games: " + games );
 	
 	}
 	
