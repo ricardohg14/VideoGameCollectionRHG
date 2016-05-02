@@ -2,16 +2,23 @@ package edu.saintjoe.cs.ricardog.videogamecollection;
 
 public class VideoGames {
 	
+	private String name;
 	private String favVideoGame;
 	private int games;
 	
-	public VideoGames(String newFavVideoGame, int newGames) {
+	public VideoGames(String newname, String newFavVideoGame, int newGames) {
 		
 		favVideoGame = newFavVideoGame;
 		games = newGames;
 		
 	}
 	
+	public void setName(String newName) {
+		name = newName;
+	}
+	public String getName() {
+		return name;
+	}
 	public void setFavVideoGame(String newFavVideoGame) {
 		favVideoGame = newFavVideoGame;
 	}
